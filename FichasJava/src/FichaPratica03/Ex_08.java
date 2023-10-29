@@ -13,10 +13,25 @@ public class Ex_08 {
         int numero, total, media;
         
 
-        while()
             System.out.println("Introduz numero: ");
-        numero= input.nextInt();
+            numero = input.nextInt();
 
+
+            while (numero!=-1) {
+                System.out.println("Introduz numero: ");
+                numero = input.nextInt();
+            }
+
+        total=numero;
+            media=total/numero;
+
+        System.out.println(media);
+        media= input.nextInt();
+
+
+
+        //enquanto não introduzir o numero -1 vai estar sempre a pedir para introduzir numeros
+        //temos que fazer o total da soma dos numeros introduzidos a dividir pela quantidade de vezes que tiveram de introduzir
 
 
 
