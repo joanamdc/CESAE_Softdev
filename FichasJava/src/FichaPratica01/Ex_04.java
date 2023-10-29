@@ -16,10 +16,10 @@ public class Ex_04 {
         raio= input.nextDouble();
 
         //calcular area circunf
-        area = 2 * pi * raio;
+        area= pi*raio*raio;
 
         // apresentar area circ
-        System.out.println("Area Circunferencia: " + area);
+        System.out.println("Area Circunferencia: "+area);
 
 
 

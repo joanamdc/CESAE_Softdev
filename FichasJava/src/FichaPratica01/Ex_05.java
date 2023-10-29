@@ -19,10 +19,10 @@ public class Ex_05 {
         System.out.print("Insira um numero: ");
         num3= input.nextDouble();
 
-        // calcular media
+        // calcular media arit
         media = (num1+num2+num3)/3;
 
-       //apresentar media
+       //apresentar media arit
         System.out.println("Media " + media);
 
         // calcular media ponderada
@@ -31,5 +31,6 @@ public class Ex_05 {
         //apresentar media
         System.out.println("Media Ponderada " + mediaPon);
 
+        //
     }
 }
