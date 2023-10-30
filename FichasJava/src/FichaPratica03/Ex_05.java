@@ -12,15 +12,17 @@ public class Ex_05 {
 
         int vI, vF;
 
-        System.out.println("Insira valor inicial: ");
+        System.out.print("Insira valor inicial: ");
         vI=input.nextInt();
 
-        System.out.println("Insira valor final: ");
+        System.out.print("Insira valor final: ");
         vF=input.nextInt();
 
         while(vI<=vF) {
         System.out.println(vI);
         vI=vI+1; }
+        //podemos utilizar o incremento ++ que significa +1
+        //ex: vI++ = vI=vI+1
 
 
     }
