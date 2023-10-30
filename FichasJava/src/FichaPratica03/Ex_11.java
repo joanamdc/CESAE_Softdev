@@ -10,24 +10,42 @@ public class Ex_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int numeroInt, contador=0, int1, int2, int3, int4;
+        int num = 0, int1 = 0, int2 = 0, int3 = 0, int4 = 0;
 
         /*int1=[0,25];
         int2=[26,50];
         int3=[51,75];
         int4=[76,100]*/
 
+        //tenho que fazer Ifs dentro do while
+
+
+        while (num >= 0) {
             System.out.print("Insira o numero: ");
-            numeroInt = input.nextInt();
+            num = input.nextInt();
 
-            while(numeroInt!=-1) {
-                System.out.println(numeroInt);
-
-                if(numeroInt)
-
-
-
+            if (num >= 0 && num <= 25) {
+                int1++; // intervalo=intervalo+1;
             }
+            if (num >= 26 && num <= 50) {
+                int2++;
+            }
+            if (num >= 51 && num <= 75) {
+                int3++;
+            }
+            if (num >= 76 && num <= 100) {
+                int4++;
+            }
+        } System.out.println("Intervalo [0,25]= "+int1);
+
+
+        System.out.println("Intervalo [26,50]= "+int2);
+
+
+        System.out.println("Intervalo [51,75]= "+int3);
+
+
+        System.out.println("Intervalo [76,100]= "+int4);
 
 
     }
