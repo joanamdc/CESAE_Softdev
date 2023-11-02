@@ -24,3 +24,7 @@ public class Ex_14 {
         System.out.println("Fatorial: "+fatorial);
     }
 }
+
+
+
+

@@ -44,3 +44,4 @@ public class Ex_11 {
     //Escreva um algoritmo que leia uma quantidade desconhecida de numeros inteiros positivos
     //fornecidos pelo utilizador e conte quantos deles estao nos intervalos. A entrada de dados
     //deve terminar
+

@@ -26,3 +26,6 @@ public class Ex_12 {
         }
     }
 }
+
+  //uma vez que nos pede para ser multiplo de 5, temos de utilizar o resto da divisão para
+                               // nos calcular o valor multiplo de 5 mesmo que o utilizador defina com numeros impares
