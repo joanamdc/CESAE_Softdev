@@ -58,11 +58,13 @@ body {
   float: left;
   display: block;
   color: black;
+  align-items: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
+
 
 .topnav a:hover {
   background-color: #ddd;
@@ -86,7 +88,7 @@ body {
 }
 
 .topnav .search-container button {
-  float: right;
+  float: center;
   padding: 6px;
   margin-top: 8px;
   margin-right: 16px;
@@ -126,8 +128,8 @@ body {
 
 
 .foto > img {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 75%;
+    max-height: 75%;
     margin: auto;
     display: block;
     padding: 20px;
