@@ -2,7 +2,7 @@ package FichaPratica5;
 
 import java.util.Scanner;
 
-public class Ex_03 {
+public class Ex_04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -15,15 +15,17 @@ public class Ex_03 {
 
         }
 
-        //encontrar o maior elemento no array
-        int maiorElemento = vetor[0];
+        //encontrar o menor elemento no array
+        int menorElemento = vetor[0];
 
         for (int indice=1; indice < 10; indice++) {
-            if(vetor[indice]>maiorElemento) {
-                maiorElemento=vetor[indice];
+            if(vetor[indice]<menorElemento) {
+                menorElemento=vetor[indice];
             }
         }
-        System.out.println("Maior elemento: "+maiorElemento);
+        System.out.println("Menor elemento: "+menorElemento);
 
     }
 }
+
+
